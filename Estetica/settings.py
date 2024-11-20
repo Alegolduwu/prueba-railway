@@ -84,14 +84,15 @@ WSGI_APPLICATION = 'Estetica.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'EstrellaEstilistas',
+        'NAME': 'railway',
         'USER': 'root',
-        'PASSWORD': 'josedaniel12',
-        'HOST': '127.0.0.1',
-        'PORT': '3306', 
+        'PASSWORD': 'bHIyzdRLXiEkYwRwgeojtCpdGsJFCBK',
+        'HOST': 'junction.proxy.rlwy.net',
+        'PORT': '47793', 
     }
 }
 
